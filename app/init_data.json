@@ -1,0 +1,720 @@
+[
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "page",
+      "model": "page"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "page",
+      "model": "videocontent"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "page",
+      "model": "textcontent"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "page",
+      "model": "audiocontent"
+    }
+  },
+  {
+    "model": "page.audiocontent",
+    "pk": 1,
+    "fields": {
+      "counter": 0,
+      "title": "Audio_1",
+      "bitrate": 128000,
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "page.audiocontent",
+    "pk": 2,
+    "fields": {
+      "counter": 0,
+      "title": "Audio_2",
+      "bitrate": 128000,
+      "pages": [
+        4
+      ]
+    }
+  },
+  {
+    "model": "page.audiocontent",
+    "pk": 3,
+    "fields": {
+      "counter": 0,
+      "title": "Audio_3",
+      "bitrate": 128000,
+      "pages": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "page.audiocontent",
+    "pk": 4,
+    "fields": {
+      "counter": 0,
+      "title": "Audio_4",
+      "bitrate": 128000,
+      "pages": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "model": "page.page",
+    "pk": 1,
+    "fields": {
+      "title": "Page_1"
+    }
+  },
+  {
+    "model": "page.page",
+    "pk": 2,
+    "fields": {
+      "title": "Page_2"
+    }
+  },
+  {
+    "model": "page.page",
+    "pk": 3,
+    "fields": {
+      "title": "Page_3"
+    }
+  },
+  {
+    "model": "page.page",
+    "pk": 4,
+    "fields": {
+      "title": "Page_4"
+    }
+  },
+  {
+    "model": "page.textcontent",
+    "pk": 1,
+    "fields": {
+      "counter": 0,
+      "title": "Text_1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id faucibus nisl tincidunt eget nullam non nisi est. Morbi leo urna molestie at elementum eu facilisis sed. Vel fringilla est ullamcorper eget nulla facilisi. Libero volutpat sed cras ornare arcu dui vivamus arcu. Lectus nulla at volutpat diam ut venenatis tellus in. In nisl nisi scelerisque eu. Nec ullamcorper sit amet risus nullam eget felis eget nunc. Velit ut tortor pretium viverra. Porttitor massa id neque aliquam vestibulum morbi blandit cursus risus. Nisl tincidunt eget nullam non nisi est. Platea dictumst vestibulum rhoncus est pellentesque. Elementum eu facilisis sed odio morbi quis commodo odio. Nisl condimentum id venenatis a. Montes nascetur ridiculus mus mauris vitae ultricies leo integer.",
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "page.textcontent",
+    "pk": 2,
+    "fields": {
+      "counter": 0,
+      "title": "Text_2",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id faucibus nisl tincidunt eget nullam non nisi est. Morbi leo urna molestie at elementum eu facilisis sed. Vel fringilla est ullamcorper eget nulla facilisi. Libero volutpat sed cras ornare arcu dui vivamus arcu. Lectus nulla at volutpat diam ut venenatis tellus in. In nisl nisi scelerisque eu. Nec ullamcorper sit amet risus nullam eget felis eget nunc. Velit ut tortor pretium viverra. Porttitor massa id neque aliquam vestibulum morbi blandit cursus risus. Nisl tincidunt eget nullam non nisi est. Platea dictumst vestibulum rhoncus est pellentesque. Elementum eu facilisis sed odio morbi quis commodo odio. Nisl condimentum id venenatis a. Montes nascetur ridiculus mus mauris vitae ultricies leo integer.",
+      "pages": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "model": "page.textcontent",
+    "pk": 3,
+    "fields": {
+      "counter": 0,
+      "title": "Text_3",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id faucibus nisl tincidunt eget nullam non nisi est. Morbi leo urna molestie at elementum eu facilisis sed. Vel fringilla est ullamcorper eget nulla facilisi. Libero volutpat sed cras ornare arcu dui vivamus arcu. Lectus nulla at volutpat diam ut venenatis tellus in. In nisl nisi scelerisque eu. Nec ullamcorper sit amet risus nullam eget felis eget nunc. Velit ut tortor pretium viverra. Porttitor massa id neque aliquam vestibulum morbi blandit cursus risus. Nisl tincidunt eget nullam non nisi est. Platea dictumst vestibulum rhoncus est pellentesque. Elementum eu facilisis sed odio morbi quis commodo odio. Nisl condimentum id venenatis a. Montes nascetur ridiculus mus mauris vitae ultricies leo integer.",
+      "pages": [
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "page.textcontent",
+    "pk": 4,
+    "fields": {
+      "counter": 0,
+      "title": "Text_4",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id faucibus nisl tincidunt eget nullam non nisi est. Morbi leo urna molestie at elementum eu facilisis sed. Vel fringilla est ullamcorper eget nulla facilisi. Libero volutpat sed cras ornare arcu dui vivamus arcu. Lectus nulla at volutpat diam ut venenatis tellus in. In nisl nisi scelerisque eu. Nec ullamcorper sit amet risus nullam eget felis eget nunc. Velit ut tortor pretium viverra. Porttitor massa id neque aliquam vestibulum morbi blandit cursus risus. Nisl tincidunt eget nullam non nisi est. Platea dictumst vestibulum rhoncus est pellentesque. Elementum eu facilisis sed odio morbi quis commodo odio. Nisl condimentum id venenatis a. Montes nascetur ridiculus mus mauris vitae ultricies leo integer.",
+      "pages": [
+        1,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "page.videocontent",
+    "pk": 1,
+    "fields": {
+      "counter": 0,
+      "title": "319. Topics API, новинки Figma и дизайна, бедный WebKit, Сложности WebAssembly, TS на Go, пайпы в JS",
+      "url": "https://youtu.be/6iwGNl-0FK8",
+      "subtitles_url": null,
+      "pages": [
+        1,
+        2,
+        4
+      ]
+    }
+  },
+  {
+    "model": "page.videocontent",
+    "pk": 2,
+    "fields": {
+      "counter": 0,
+      "title": "318. Safari, сабгриды, Vue 3, оверрайды в npm, border-image, спеки, старые браузеры, TS и Девшахта",
+      "url": "https://youtu.be/AAkmt2TwxtE",
+      "subtitles_url": null,
+      "pages": [
+        1,
+        3
+      ]
+    }
+  },
+  {
+    "model": "page.videocontent",
+    "pk": 3,
+    "fields": {
+      "counter": 0,
+      "title": "Многопоточность и GIL",
+      "url": "https://youtu.be/nR8WhdcRJwM",
+      "subtitles_url": null,
+      "pages": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "page.videocontent",
+    "pk": 4,
+    "fields": {
+      "counter": 0,
+      "title": "6 String Shootout Metal Bridge Humbucker Comparison",
+      "url": "https://youtu.be/0FE2PDH61h0",
+      "subtitles_url": null,
+      "pages": [
+        1,
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": [
+        "admin",
+        "logentry"
+      ],
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": [
+        "admin",
+        "logentry"
+      ],
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": [
+        "admin",
+        "logentry"
+      ],
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": [
+        "admin",
+        "logentry"
+      ],
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add permission",
+      "content_type": [
+        "auth",
+        "permission"
+      ],
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change permission",
+      "content_type": [
+        "auth",
+        "permission"
+      ],
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": [
+        "auth",
+        "permission"
+      ],
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view permission",
+      "content_type": [
+        "auth",
+        "permission"
+      ],
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add group",
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change group",
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete group",
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view group",
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add user",
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change user",
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete user",
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view user",
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add content type",
+      "content_type": [
+        "contenttypes",
+        "contenttype"
+      ],
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change content type",
+      "content_type": [
+        "contenttypes",
+        "contenttype"
+      ],
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": [
+        "contenttypes",
+        "contenttype"
+      ],
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view content type",
+      "content_type": [
+        "contenttypes",
+        "contenttype"
+      ],
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add session",
+      "content_type": [
+        "sessions",
+        "session"
+      ],
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change session",
+      "content_type": [
+        "sessions",
+        "session"
+      ],
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete session",
+      "content_type": [
+        "sessions",
+        "session"
+      ],
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view session",
+      "content_type": [
+        "sessions",
+        "session"
+      ],
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add page",
+      "content_type": [
+        "page",
+        "page"
+      ],
+      "codename": "add_page"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change page",
+      "content_type": [
+        "page",
+        "page"
+      ],
+      "codename": "change_page"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete page",
+      "content_type": [
+        "page",
+        "page"
+      ],
+      "codename": "delete_page"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view page",
+      "content_type": [
+        "page",
+        "page"
+      ],
+      "codename": "view_page"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add video content",
+      "content_type": [
+        "page",
+        "videocontent"
+      ],
+      "codename": "add_videocontent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change video content",
+      "content_type": [
+        "page",
+        "videocontent"
+      ],
+      "codename": "change_videocontent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete video content",
+      "content_type": [
+        "page",
+        "videocontent"
+      ],
+      "codename": "delete_videocontent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view video content",
+      "content_type": [
+        "page",
+        "videocontent"
+      ],
+      "codename": "view_videocontent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add text content",
+      "content_type": [
+        "page",
+        "textcontent"
+      ],
+      "codename": "add_textcontent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change text content",
+      "content_type": [
+        "page",
+        "textcontent"
+      ],
+      "codename": "change_textcontent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete text content",
+      "content_type": [
+        "page",
+        "textcontent"
+      ],
+      "codename": "delete_textcontent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view text content",
+      "content_type": [
+        "page",
+        "textcontent"
+      ],
+      "codename": "view_textcontent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add audio content",
+      "content_type": [
+        "page",
+        "audiocontent"
+      ],
+      "codename": "add_audiocontent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change audio content",
+      "content_type": [
+        "page",
+        "audiocontent"
+      ],
+      "codename": "change_audiocontent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete audio content",
+      "content_type": [
+        "page",
+        "audiocontent"
+      ],
+      "codename": "delete_audiocontent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view audio content",
+      "content_type": [
+        "page",
+        "audiocontent"
+      ],
+      "codename": "view_audiocontent"
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$320000$JxqTIqH6swgXBmpdKSrJwC$yAYqrdm9HAt8JCNhxsnOpk7rqu4yZY0LEd2mfkZCJUM=",
+      "last_login": "2022-02-02T21:52:58.368Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-02-02T21:52:41.410Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]

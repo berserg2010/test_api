@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  runserver:
+    entrypoint: [ '/bin/sh', '-c' ]
+    command:
+      - |
+        python3 -c "import redis;r=redis.Redis(host='redis',port='6379');r.flushall()"
+        ./manage.py flush --no-input
+        ./manage.py makemigrations
+        ./manage.py migrate
+        ./manage.py loaddata init_data.json
+        ./manage.py runserver 0.0.0.0:8000
+
+    volumes:
+      # Bind
+      - ./app:/usr/src/app
+    ports:
+      - '8000:8000'
+
+
+  autotests:
+    entrypoint: [ '/bin/sh', '-c' ]
+    command:
+      - |
+        pytest -s
+
+    volumes:
+      # Bind
+      - ./app:/usr/src/app
