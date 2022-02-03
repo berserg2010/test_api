@@ -26,7 +26,7 @@ Add environment variables
     cp env/back.env.template env/back.env
     cp env/db.env.template env/db.env
 
-Enter in admin patel
+Enter in admin panel
 
     username: admin
     password: password
