@@ -34,14 +34,17 @@ Enter in admin panel
 ___
 
 ### Docker
+    
+    # Build app
+    docker-compose build backend
 
     # Run app
-    docker-compose up runserver
+    docker-compose up --build
+
+    # Run linter
+    docker-compose run --rm backend flake8
 
     # Run tests
-    docker-compose up autotests
-    
-    # Run linter
-    docker-compose run --rm runserver flake8
+    docker-compose run --rm backend pytest
 
 ___
