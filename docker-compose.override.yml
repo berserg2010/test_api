@@ -17,14 +17,3 @@ services:
       - ./app:/usr/src/app
     ports:
       - '8000:8000'
-
-
-  autotests:
-    entrypoint: [ '/bin/sh', '-c' ]
-    command:
-      - |
-        pytest -s
-
-    volumes:
-      # Bind
-      - ./app:/usr/src/app

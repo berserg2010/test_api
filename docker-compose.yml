@@ -30,7 +30,7 @@ services:
     networks:
       - db_layer
 
-  runserver:
+  backend:
     build:
       context: app/.
       args:
@@ -45,22 +45,6 @@ services:
       - db
       - redis
       - celery
-    networks:
-      - db_layer
-
-  autotests:
-    build:
-      context: app/.
-      args:
-        USER_ID: ${USER_ID}
-        GROUP_ID: ${GROUP_ID}
-        DEBUG: ${DEBUG}
-    env_file:
-      - env/common.env
-      - env/back.env
-      - env/db.env
-    depends_on:
-      - db
     networks:
       - db_layer
 
