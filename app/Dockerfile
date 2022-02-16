@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM python:3.8 as base
 
 ARG USER_ID=1000
 ARG GROUP_ID=1000
@@ -27,3 +27,15 @@ RUN pip install --no-cache-dir -r requirements.txt
 USER node
 
 COPY --chown=${USER_ID}:${GROUP_ID} . ./
+
+
+FROM base as build
+
+ARG USER_ID=1000
+ARG GROUP_ID=1000
+ARG DEBUG=false
+ARG LOG_LEVEL=info
+
+WORKDIR /usr/src/app
+
+RUN ./manage.py collectstatic --no-input
